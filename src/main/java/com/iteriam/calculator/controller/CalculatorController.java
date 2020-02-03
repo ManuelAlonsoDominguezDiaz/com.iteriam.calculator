@@ -4,7 +4,6 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
-import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -26,10 +25,4 @@ public class CalculatorController {
 		return new ResponseEntity<>(calculatorServiceImpl.basicOperation(boReq), HttpStatus.OK);
 	}
 	
-	@ExceptionHandler(IllegalArgumentException.class)
-    public ResponseEntity<IllegalArgumentException> illegalArgumentHandler() {
-		// TODO return a custom exception with only the necessary data to the client
-		return new ResponseEntity<>(new IllegalArgumentException(), HttpStatus.BAD_REQUEST);
-    }
-
 }

@@ -18,7 +18,7 @@ public class CalculatorServiceImpl implements ICalculatorService {
 
 		double result = Arrays.stream(BasicOperationEnum.values())
 				.filter(op -> op.getOperationSymbol().equals(boReq.getOperator())).findFirst()
-				.orElseThrow(() -> new IllegalArgumentException()).getOperationResult(boReq.getOp1(), boReq.getOp2());
+				.orElseThrow(() -> new IllegalArgumentException("Invalid Operator.")).getOperationResult(boReq.getOp1(), boReq.getOp2());
 
 		boRes.setResult(result);
 
