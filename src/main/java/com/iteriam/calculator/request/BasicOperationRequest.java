@@ -12,7 +12,7 @@ public class BasicOperationRequest {
 	@ApiModelProperty(value = "Right operator", example = "10")
 	double op2;
 
-	@ApiModelProperty(allowableValues = "+,-,/,*", example = "+")
+	@ApiModelProperty(allowableValues = "+,-,/", example = "+")
 	Character operator;
 
 }
