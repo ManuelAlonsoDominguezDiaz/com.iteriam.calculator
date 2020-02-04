@@ -6,6 +6,10 @@ public enum BasicOperationEnum {
 
 	ADDITION('+', (op1, op2) -> op1 + op2), 
 	SUBTRACTION('-', (op1, op2) -> op1 - op2);
+	/** TODO To implement into the future
+	MULTIPLICATON('*', (op1, op2) -> op1 * op2),
+	DIVISION('/', (op1, op2) -> op1 / op2);
+	*/
 
 	BasicOperationEnum(Character operationSymbol, IBasicOperation basicOperationMethod) {
 		this.operationSymbol = operationSymbol;

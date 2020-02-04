@@ -1,9 +1,11 @@
 package com.iteriam.calculator.request;
 
 import io.swagger.annotations.ApiModelProperty;
+import lombok.AllArgsConstructor;
 import lombok.Data;
 
 @Data
+@AllArgsConstructor
 public class BasicOperationRequest {
 
 	@ApiModelProperty(value = "Left operand", example = "5")
