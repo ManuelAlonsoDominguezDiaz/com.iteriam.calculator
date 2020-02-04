@@ -2,6 +2,8 @@ Code test para ITERIAM
 
 Sencilla calculadora con un controlador el cual tiene un endpoint encargado de hacer una operación básica, suma y resta en este caso pero escalable a más operaciones básicas (división y multiplicación)
 
+La libería Tracer que se debe usar para este code test está incluída en la carpeta resources del proyecto y se está obteniendo con maven desde ahí con el uso de <scope>system</scope>. De todos modos lo ideal sería obtener esa dependencia desde un gestor de repositorios, ya fuera Nexus o Artifactory.
+
 Se han añadido utilidades:
 
 - Lombok: Librería con anotaciones encargadas de eliminar el boilerplate de POJOs, haciendo del código más limpio. https://projectlombok.org/ https://www.adictosaltrabajo.com/2016/02/03/como-reducir-el-codigo-repetitivo-con-lombok/
