@@ -10,7 +10,7 @@ Se han añadido utilidades:
 Para la instalación tan sólo tendremos que hacer:
 
 - git clone de este repositorio
-- Desde la raíz del projecto ejecutar mvn clean install.  Nos dejará el compilado .jar por defecto en la carpeta target dentro de la raíz del proyecto.
+- Desde la raíz del proyecto ejecutar mvn clean install.  Nos dejará el compilado .jar por defecto en la carpeta target dentro de la raíz del proyecto.
 
-- Para levantar el servicio en local y probar el endpoint creado nos basta con ejecutar en un terminal mvn spring-boot:run. Esto nos levantará el servicio y accediendo a la url http://localhost:8080/swagger-ui.html podremos probar el servicio.
+- Para levantar el servicio en local y probar el endpoint creado nos basta con ejecutar en un terminal mvn spring-boot:run. Esto nos levantará el servicio y accediendo a la url http://localhost:8080/swagger-ui.html podremos probarlo.
 
