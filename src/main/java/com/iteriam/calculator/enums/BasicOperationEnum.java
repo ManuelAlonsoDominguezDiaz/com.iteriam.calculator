@@ -1,4 +1,4 @@
-package com.iteriam.enums;
+package com.iteriam.calculator.enums;
 
 import com.iteriam.calculator.interfaces.IBasicOperation;
 
