@@ -2,7 +2,6 @@ package com.iteriam.calculator.controller;
 
 import java.util.Date;
 
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.ControllerAdvice;
 import org.springframework.web.bind.annotation.ExceptionHandler;
@@ -13,6 +12,7 @@ import com.iteriam.calculator.exception.StandardException;
 import com.iteriam.calculator.response.ErrorResponse;
 
 import io.corp.calculator.TracerImpl;
+
 
 @ControllerAdvice
 public class ExceptionController {
